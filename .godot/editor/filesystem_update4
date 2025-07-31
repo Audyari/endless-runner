@@ -1,4 +1,6 @@
+res://Rock.tscn
+res://player.gd
+res://player.tscn
 res://level.tscn
 res://floor.tscn
-res://player.tscn
-res://player.gd
+res://rock.gd

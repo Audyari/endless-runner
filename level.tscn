@@ -1,12 +1,19 @@
-[gd_scene load_steps=3 format=3 uid="uid://xjvhujy2hweo"]
+[gd_scene load_steps=4 format=3 uid="uid://xjvhujy2hweo"]
 
 [ext_resource type="PackedScene" uid="uid://bnh7i4ppdd2rs" path="res://floor.tscn" id="1_u52ul"]
 [ext_resource type="PackedScene" uid="uid://drovos72ue0el" path="res://player.tscn" id="2_vonw3"]
+[ext_resource type="PackedScene" uid="uid://dkur28rbajigj" path="res://Rock.tscn" id="3_oi3di"]
 
 [node name="Level" type="Node2D"]
 
-[node name="Floor" parent="." instance=ExtResource("1_u52ul")]
-position = Vector2(400, 535)
-
 [node name="Player" parent="." instance=ExtResource("2_vonw3")]
-position = Vector2(239, 230)
+position = Vector2(409, 153)
+
+[node name="Floor" parent="." instance=ExtResource("1_u52ul")]
+position = Vector2(402, 568)
+
+[node name="Rock" parent="." instance=ExtResource("3_oi3di")]
+position = Vector2(15, 518)
+
+[node name="Rock2" parent="." instance=ExtResource("3_oi3di")]
+position = Vector2(210, 519)
