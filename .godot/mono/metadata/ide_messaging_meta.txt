@@ -1,2 +1,2 @@
-﻿26941
+﻿10530
 D:/GAME PROJEK/Godot_v4.4.1-stable_mono_win64.exe
